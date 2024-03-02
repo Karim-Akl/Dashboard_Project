@@ -6,7 +6,7 @@ body{
     background-image: linear-gradient(#00000088 ,#00000088),
     url(./imge.png);
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
 body:hover{
     background-image: linear-gradient(#0000005f,transparent),
