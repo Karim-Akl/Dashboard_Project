@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./Register.Css">
+    <script>
+        let docTitle = document.title;
+
+        window.addEventListener("blur", () => {
+            document.title = "Come Back  🥺";
+        });
+
+        window.addEventListener("focus", () => {
+            document.title = docTitle;
+        });
+        </script>
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="./Dashboard.Html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Servise</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="./LogIn.Html" class="l">LogIn</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="p">
+    <div class="contener">
+        <div class="imge">
+            <!-- <img src="./User_Imdge.jpg" alt="Not found"> -->
+            <h1>Registration</h1>
+        </div>
+
+        <div class="content">
+            <form >
+                <div class="inp">
+                    <label for="email" id="e">UserName </label>
+                    <input type="text" name="email" id="email"  required>
+
+                    <label for="email" id="e">Email </label>
+                    <input type="email" name="email" id="email" required>
+                    
+                    <label for="password" id="e">Password </label>
+                    <input type="password" name="password" id="password" required>
+
+                </div>
+                
+                <input type="checkbox" name="Remember me" id="me" >
+                <label class="d" for="me">I agree to the terms &conditions</label>
+                <!-- <a href="#" id="f">Forgot Password</a> -->
+                <button><a class="log" href="./Dashboard.Html">Register </button></a>
+                <p class="d">Already Have an account?</p>
+                <a  href="./LogIn.Html">LogIn</a>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

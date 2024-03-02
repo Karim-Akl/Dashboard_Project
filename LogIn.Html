@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="LogIn.Css">
+    <script>
+        let docTitle = document.title;
+
+        window.addEventListener("blur", () => {
+            document.title = "Come Back  🥺";
+        });
+
+        window.addEventListener("focus", () => {
+            document.title = docTitle;
+        });
+        </script>
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Servise</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="./LogIn.Html" class="l">LogIn</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="p">
+    <div class="contener">
+        <div class="imge">
+            <img src="./Image 2.png" alt="Not found">
+            <h1>LogIn</h1>
+        </div>
+        <div class="content">
+            <form >
+                <div class="inp">
+                    <label for="email" id="e">UserName </label>
+                    <input type="text" name="email" id="email"  required>
+
+                    <label for="password" id="e">Password </label>
+                    <input type="password" name="password" id="password" required >
+                    
+
+                </div>
+                
+                <input  type="checkbox" name="Remember me" id="me" >
+                <label  for="me"class="r"> Remember me</label>
+                <a href="#" id="f">Forgot Password</a>
+                <button><a href="./Dashboard.Html" class="log" >Sign In</button></a>
+                <p class="d">Don't have an account?</p>
+                <a href="./Register.Html">Register</a>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
