@@ -4,13 +4,13 @@ body{
     padding: 0px;
     height: 100vh;
     background-image: linear-gradient(#00000088 ,#00000088),
-    url(./Screenshot\ 2024-02-29\ at\ 9.01.58\ PM.png);
+    url(./imge.png);
     background-size: cover;
     background-position: center;
 }
 body:hover{
     background-image: linear-gradient(#0000005f ,transparent),
-    url(./Screenshot\ 2024-02-29\ at\ 9.01.58\ PM.png);
+    url(./imge.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
