@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: linear-gradient(#00000088 ,#00000088),
+    url(./Screenshot\ 2024-02-29\ at\ 9.01.58\ PM.png);
+    background-size: cover;
+    background-position: center;
+}
+body:hover{
+    background-image: linear-gradient(#0000005f ,transparent),
+    url(./Screenshot\ 2024-02-29\ at\ 9.01.58\ PM.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    
+    /* margin-top: 10px;  */
+
+}
+ul{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 25px;
+
+
+
+}
+.logo{
+    width: 15%;
+    color: white;
+    text-decoration: dotted;
+    font-size: xx-large;
+    font-weight:900;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+
+
+    
+}
+.l{
+
+    background-color: rgba(240, 248, 255, 0);
+    padding: 5px 15px;
+    border: white solid 1px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 700;
+
+}
+.l:hover{
+    color: #000;
+    background-color: white;
+}
+
+nav ul li a{
+    text-decoration: dotted;
+    color: white;
+    font-size: large;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+
+    text-decoration: underline  2px rgb(241, 242, 247) ;
+    transition: .5s;
+
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgb(255, 247, 247);
+    border: #ffffff solid 1px;
+}
+.p{
+    height: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.contener{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 247, 247, 0.517);
+    background:transparent;
+    backdrop-filter: blur(50px);
+
+    /* background-color: white; */
+}
+.contener:hover{
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+
+.content{
+
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.imge{
+
+    text-align: center;
+    
+
+
+}
+.log{
+    text-decoration: none;
+        color: #000
+    
+}
+h1{
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: white;
+}
+#email,#password{
+    display: inline-block;
+    width: 75%;
+    font-size: large;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #000;
+    margin: 0px 40px;
+    padding-left: 5px;
+    border-bottom-style:solid;
+    outline: none;
+    color: #050505;
+    box-shadow: 0 0 15px rgba(255, 247, 247, 0.47);
+    border-radius: 5px;
+
+    
+
+}
+#email:hover,#password:hover,button:hover{
+    box-shadow: 0 0 20px rgb(255, 247, 247);
+}
+#email{
+    margin-bottom: 30px;
+}
+
+
+button{
+    display: block;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+    margin: 20px 40px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 15px rgba(255, 247, 247, 0.51);
+}
+#f{
+    margin-top: 10px;
+    margin-left: 90px;
+    color: #ffffff;
+}
+#me{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: white;
+}
+.r{
+    color: white;
+}
+p{
+    display: inline-block;
+    margin-left:80px ;
+}
+#e{
+    margin-left:  45px;
+    color: white;
+    font-weight: 400;
+}
+.d{
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+}
+@media only screen and (max-width: 450px) {
+
+    .contener{
+        margin-left: 20px;
+    }
+
+}
